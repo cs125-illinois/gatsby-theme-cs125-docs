@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.cache": true,
+    "**/*.swo": true,
+    "**/*.swp": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true
+  },
+  "eslint.validate": ["typescriptreact"]
+}
