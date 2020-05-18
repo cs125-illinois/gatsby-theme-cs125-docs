@@ -13,7 +13,7 @@
     "ncu": "ncu"
   },
   "dependencies": {
-    "@cs125/element-tracker": "^2020.5.5",
+    "@cs125/element-tracker": "^2020.5.6",
     "@cs125/semantic-ui": "^2020.5.17",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
@@ -25,7 +25,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "peerDependencies": {
-    "gatsby": "^2.21.36",
+    "gatsby": "^2.21.37",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/mdx-js__react": "^1.5.2",
     "concurrently": "^5.2.0",
-    "gatsby": "^2.21.36",
+    "gatsby": "^2.21.37",
     "npm-check-updates": "^6.0.1",
     "prettier": "^2.0.5",
     "prettier-package-json": "^2.1.3",
