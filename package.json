@@ -1,7 +1,7 @@
 {
   "name": "@cs125/gatsby-theme-cs125-docs",
   "license": "MIT",
-  "version": "2020.5.0",
+  "version": "2020.5.1",
   "main": "index.js",
   "scripts": {
     "backend": "docker-compose --env-file .env.development -p $npm_package_name up",
