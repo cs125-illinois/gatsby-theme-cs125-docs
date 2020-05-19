@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "backend": "docker-compose --env-file .env.development -p $npm_package_name up",
+    "backend:stop": "docker-compose --env-file .env.development -p $npm_package_name down",
     "check": "npm run tsc && npm run prettier",
     "clean": "gatsby clean",
     "ncu": "ncu",
@@ -15,7 +16,7 @@
   "dependencies": {
     "@cs125/element-tracker": "^2020.5.6",
     "@cs125/react-google-login": "^2020.5.4",
-    "@cs125/semantic-ui": "^2020.5.22",
+    "@cs125/semantic-ui": "^2020.5.23",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "gatsby-plugin-mdx": "^1.2.8",
