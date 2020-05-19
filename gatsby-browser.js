@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import "@cs125/semantic-ui/semantic.min.css"
+import "@cs125/semantic-ui/dist/css/semantic.min.css"
 
 import { GoogleLoginProvider, WithGoogleTokens } from "@cs125/react-google-login"
 import { ElementTracker } from "@cs125/element-tracker"
