@@ -19,7 +19,7 @@
   "dependencies": {
     "@cs125/element-tracker": "^2020.5.8",
     "@cs125/react-google-login": "^2020.5.4",
-    "@cs125/semantic-ui": "^2020.5.26",
+    "@cs125/semantic-ui": "^2020.5.27",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "gatsby-plugin-mdx": "^1.2.9",
