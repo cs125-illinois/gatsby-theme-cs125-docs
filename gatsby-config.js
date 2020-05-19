@@ -31,7 +31,7 @@ module.exports = {
         name: process.env.npm_package_name,
         short_name: process.env.npm_package_name,
         start_url: "/",
-        icon: "src/images/favicon.png",
+        icon: require.resolve("./src/images/favicon.png"),
       },
     },
     "gatsby-plugin-react-helmet",
