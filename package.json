@@ -9,7 +9,7 @@
     "backend:stop": "docker-compose --env-file .env.development -p $npm_package_name down",
     "check": "npm run eslint && npm run tsc && npm run prettier && npm run depcheck",
     "clean": "gatsby clean",
-    "depcheck": "depcheck --ignore-dirs .cache,public --ignores=gatsby-*,@mdx-js/mdx,@typescript-eslint/*,eslint-plugin-*",
+    "depcheck": "depcheck --ignore-dirs .cache,public --ignores=gatsby-*,@mdx-js/mdx,@typescript-eslint/*,eslint-plugin-*,gh-pages",
     "eslint": "eslint --fix src/ --max-warnings=0 --ext .js,.ts,.tsx",
     "ncu": "ncu",
     "start": "concurrently -n example,backend \"gatsby develop -p 1234\" \"npm run backend\"",
@@ -26,6 +26,7 @@
     "gatsby-plugin-preload-fonts": "^1.2.3",
     "gatsby-plugin-typescript": "^2.4.2",
     "gatsby-source-filesystem": "^2.3.4",
+    "gh-pages": "^2.2.0",
     "runtypes": "^4.2.0",
     "semantic-ui-react": "^0.88.2"
   },
