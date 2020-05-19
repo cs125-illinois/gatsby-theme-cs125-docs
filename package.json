@@ -7,15 +7,15 @@
     "backend": "docker-compose --env-file .env.development -p $npm_package_name up",
     "check": "npm run tsc && npm run prettier",
     "clean": "gatsby clean",
+    "ncu": "ncu",
     "start": "concurrently -n example,backend \"gatsby develop -p 1234\" \"npm run backend\"",
     "tsc": "tsc",
-    "prettier": "prettier \"**/*{.tsx,.ts,.js,.json,.md,.mdx}\" --write && prettier-package-json --write",
-    "ncu": "ncu"
+    "prettier": "prettier \"**/*{.tsx,.ts,.js,.json,.md,.mdx}\" --write && prettier-package-json --write"
   },
   "dependencies": {
     "@cs125/element-tracker": "^2020.5.6",
     "@cs125/react-google-login": "^2020.5.4",
-    "@cs125/semantic-ui": "^2020.5.18",
+    "@cs125/semantic-ui": "^2020.5.22",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "gatsby-plugin-mdx": "^1.2.8",
