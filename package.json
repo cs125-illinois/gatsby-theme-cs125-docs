@@ -1,5 +1,6 @@
 {
   "name": "@cs125/gatsby-theme-cs125-docs",
+  "description": "Gatsby theme for CS 125 docs.",
   "license": "MIT",
   "version": "2020.5.4",
   "main": "index.js",
