@@ -7,7 +7,9 @@ import { MDXProvider } from "@mdx-js/react"
 
 import logo from "../images/favicon.png"
 
-import { Highlighted, headings, SidebarMenu } from "@cs125/semantic-ui"
+import { SidebarMenu } from "@cs125/semantic-ui/element-tracker"
+import { Highlighted, headings } from "@cs125/semantic-ui/mdx"
+
 const components = {
   code: Highlighted,
   ...headings,
